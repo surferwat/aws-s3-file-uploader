@@ -4,7 +4,7 @@ A program to upload a file to AWS S3 directly from a web or mobile application
 
 ## Usage
 
-`
+```
 import { AwsFileUploader } from './AwsFileUploader'
 
 
@@ -24,7 +24,7 @@ awsFileUploader
     .uploadFile()
     .then(data => console.log(data))
     .catch(e => console.error(e))
-`
+```
 
 ## References
 
