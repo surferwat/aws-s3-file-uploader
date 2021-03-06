@@ -1,0 +1,15 @@
+{
+  "name": "aws-s3-media-handler",
+  "version": "0.0.0",
+  "description": "upload and download files to aws s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "surferwat",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "typescript": "^4.2.3"
+  }
+}
