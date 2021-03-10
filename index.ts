@@ -4,12 +4,12 @@ import axios from 'axios'
 //  AwsS3FileUploader()
 //  A JavaScript library for file upload to AWS S3 bucket from the client side.
 
-const AwsS3FileUploader = class {
+export const AwsS3FileUploader = class {
     private url: string // unsigned or signed upload url
     private headers: object // headers to be included in request
-    private data: object // file object to be included in request and uploaded to the S3 bucket
+    private data: Blob // file object to be included in request and uploaded to the S3 bucket
 
-    constructor(initUrl: string, initHeaders: object, initData: object) {
+    constructor(initUrl: string, initHeaders: object, initData: Blob) {
         this.url = initUrl
         this.headers = initHeaders
         this.data = initData
@@ -30,6 +30,3 @@ const AwsS3FileUploader = class {
         })
     }
 }
-
-
-export = AwsS3FileUploader

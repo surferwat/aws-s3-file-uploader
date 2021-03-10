@@ -1,15 +1,24 @@
 {
-  "name": "aws-s3-media-handler",
-  "version": "0.0.0",
-  "description": "upload and download files to aws s3",
+  "name": "aws-s3-file-uploader",
+  "version": "1.0.0",
+  "description": "upload file to aws s3 from client",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "surferwat",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "typescript": "^4.2.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surferwat/aws-s3-file-uploader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/surferwat/aws-s3-file-uploader/issues"
+  },
+  "homepage": "https://github.com/surferwat/aws-s3-file-uploader#readme"
 }
