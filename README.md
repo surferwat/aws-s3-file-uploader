@@ -2,6 +2,20 @@
 
 A program to upload a file to AWS S3 directly from a web or mobile application.
 
+## Installation
+
+Step 1 Clone the repo 
+
+```
+git clone https://github.com/surferwat/aws-s3-file-uploader.git
+```
+
+Step 2 Install the module
+
+```
+npm install /file/path/to/module
+```
+
 ## Usage
 
 ```javascript
